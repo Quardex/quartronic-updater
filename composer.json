@@ -1,0 +1,14 @@
+{
+    "name": "quardex/quartronic-updater",
+    "description": "Updater for Quartronic CMS",
+    "type": "package",
+    "require": {
+        "composer/composer": "^1.10"
+    },
+    "authors": [
+        {
+            "name": "Andrew Quardex",
+            "email": "quardex@mail.ru"
+        }
+    ]
+}
