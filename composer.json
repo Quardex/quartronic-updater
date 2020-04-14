@@ -10,5 +10,10 @@
             "name": "Andrew Quardex",
             "email": "quardex@mail.ru"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "quarsintex\\quartronic\\qcore\\": "qcore/"
+        }
+    }
 }
