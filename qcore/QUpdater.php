@@ -15,6 +15,7 @@ class QUpdater {
     static function run($rootDir='') {
         if (!$rootDir) $rootDir = __DIR__.'/../../../../';
         chdir($rootDir);
-        echo shell_exec('php -r "require_once(\'vendor/autoload.php\');\quarsintex\quartronic\qcore\QUpdater::update();"');
+        self::update();
+        //echo shell_exec('php -r "require_once(\'vendor/autoload.php\');\quarsintex\quartronic\qcore\QUpdater::update();"');
     }
 }
