@@ -2,6 +2,13 @@
     "name": "quarsintex/quartronic-updater",
     "description": "Updater for Quartronic CMS",
     "type": "package",
+    "authors": [
+        {
+            "name": "Andrew Quardex",
+            "email": "quardex@mail.ru"
+        }
+    ],
+    "license": "MIT",
     "require": {
         "composer/composer": "^1.10"
     },
