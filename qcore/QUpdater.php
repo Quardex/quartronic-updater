@@ -19,4 +19,10 @@ class QUpdater
         //self::update();
         echo shell_exec('php -r "require_once(\'vendor/autoload.php\');\quarsintex\quartronic\qcore\QUpdater::update();"');
     }
+
+    static function ver2int($v)
+    {
+        $v = explode('.', $v);
+        return $v[0]*100000 + $v[1]*1000 + $v[2];
+    }
 }
