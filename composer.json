@@ -10,17 +10,16 @@
     ],
     "license": "MIT",
     "require": {
-        "composer/composer": "^1.10"
+        "php": ">=7.4",
+        "composer/composer": "^2.10"
     },
-    "authors": [
-        {
-            "name": "Andrew Quardex",
-            "email": "quardex@mail.ru"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "quarsintex\\quartronic\\qcore\\": "qcore/"
         }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
     }
 }
