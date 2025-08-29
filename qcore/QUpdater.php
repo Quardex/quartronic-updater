@@ -2,9 +2,6 @@
 namespace quarsintex\quartronic\qcore;
 
 use Composer\Console\Application;
-use Composer\Factory;
-use Composer\IO\ConsoleIO;
-use Composer\Util\Filesystem;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Output\ConsoleOutput;
 
